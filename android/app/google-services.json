@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817319625869",
+    "project_id": "dripkart-6415f",
+    "storage_bucket": "dripkart-6415f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817319625869:android:4da8f967eae7edfbc50ec4",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCJCzEqavjr_agRxEQbHoiQ9qXAQL6lsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
