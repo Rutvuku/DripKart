@@ -10,7 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore:
+  cloud_firestore: ^4.4.0
+  http: ^1.0.0
 
 dev_dependencies:
   flutter_test:
