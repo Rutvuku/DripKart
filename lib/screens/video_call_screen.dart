@@ -3,7 +3,8 @@ import 'package:ecommerce_app/resources/jitsi_meet_methods.dart';
 import 'package:ecommerce_app/utils/colors.dart';
 import 'package:ecommerce_app/widgets/meeting_options.dart';
 import 'package:flutter/material.dart';
-import 'package:jitsi_meet/jitsi_meet.dart';
+
+import 'package:jitsi_meet_wrapper/jitsi_meet_wrapper.dart';
 
 class VideoCallScreen extends StatefulWidget {
   const VideoCallScreen({Key? key}) : super(key: key);
@@ -34,7 +35,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     super.dispose();
     meetingIdController.dispose();
     nameController.dispose();
-    JitsiMeet.removeAllListeners();
+
   }
 
   _joinMeeting() {
